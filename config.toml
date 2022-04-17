@@ -15,7 +15,9 @@ pygmentscodefencesguesssyntax = true
 	subtitle = "A potion of Phoenix, Elixir, Tailwind, Alpine and LiveView"
 
 	# Optional 64x64 avatar image.
-	avatar = "/petal-stack/avatar.png"
+	avatar = "/petal-stack/penguin.png"
+
+	favicon = "/petal-stack/avatar.png"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]

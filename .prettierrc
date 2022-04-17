@@ -1,0 +1,21 @@
+{
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "go-template"
+      }
+    }
+  ],
+
+  "twigPrintWidth": 120,
+
+  "twigMultiTags": [
+    "nav,endnav",
+    "switch,case,default,endswitch",
+    "ifchildren,endifchildren",
+    "if,end",
+    "cache,endcache",
+    "js,endjs"
+  ]
+}

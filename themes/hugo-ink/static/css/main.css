@@ -183,7 +183,7 @@ ul.flat {
 }
 
 ul.flat li {
-  display: block;
+  display: inline-block;
   list-style: none;
   margin-left: 0;
 }
@@ -242,7 +242,6 @@ ul {
 .header .avatar img {
   width: 84px;
   height: 84px;
-  border-radius: 100%;
   margin: 0;
 }
 .header .site-title {
