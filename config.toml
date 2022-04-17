@@ -11,6 +11,9 @@ pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+#googleAnalytics = "UA-123-45"
+disqusShortname = "petal-stack"
+
 [params]
 	subtitle = "A potion of Phoenix, Elixir, Tailwind, Alpine and LiveView"
 
@@ -31,24 +34,40 @@ pygmentscodefencesguesssyntax = true
 
 # Nav.
 [[menu.main]]
-name = "Home"
+name = "home"
 url = "/"
 weight = 1
 
+#[[menu.main]]
+#name = "blog"
+#url = "/posts"
+#weight = 2
+
 [[menu.main]]
-name = "Blog"
-url = "/posts"
+name = "elixir"
+url = "/tags/elixir/"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "phoenix"
+url = "/tags/phoenix/"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "alpine"
+url = "/tags/alpine/"
 weight = 4
+
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 95
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 99
 
 #[[params.social]]
 #name = "Github"
